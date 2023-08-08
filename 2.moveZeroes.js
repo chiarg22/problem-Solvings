@@ -1,19 +1,7 @@
-// function sorted(x) {
-//   for (let i = 0; i < x.length; i++) {
-//     for (let j = i + 1; j < x.length; j++) {
-//       if (x[i] > x[j]) {
-//         x[i] = x[j];
-//       }
-//     }
-//     console.log(x[i]);
-//   }
-// }
-
-// console.log(sorted([1,0,1,0,0,0,0,0,1,1]));
-// sorted([1, 0, 1, 0, 0, 0, 0, 0, 1, 1]);
-
-// let arr = [1, 0, 1, 0, 0, 0, 0, 0, 1, 1];
-// let arr2 = [];
+// Creata a function and pass an argument to it
+// take another empty array and the 2 loops.
+// check if the arr[i] === 0 then push 0 into the arr2 and do the same for 1.
+//print the new arr2 as it contains the desired Output.
 
 function sorted(arr) {
   let arr2 = [];
