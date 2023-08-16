@@ -30,10 +30,11 @@ const p = [
 ];
 
 const change = p.map((item) => {
-  if (item.isActive == "false") {
+  if (item.isActive == false) {
     item.isActive = "NA";
     return item;
   }
+  return item;
 });
 
 console.log({ p, change });
