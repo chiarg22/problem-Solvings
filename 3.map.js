@@ -40,10 +40,10 @@ const p = [
 // console.log({ p, change });
 
 const change2 = p.map((item) => {
-  if (item.isActive == false) {
+  if (!item.isActive) {
     item.isActive = "Not Available";
     return item;
-  } else if (item.isActive == true) {
+  } else if (item.isActive) {
     item.isActive = "Available";
     return item;
   }
