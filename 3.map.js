@@ -43,7 +43,7 @@ const change2 = p.map((item) => {
   if (!item.isActive) {
     item.isActive = "Not Available";
     return item;
-  } else if (item.isActive) {
+  } else {
     item.isActive = "Available";
     return item;
   }
