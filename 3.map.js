@@ -29,12 +29,25 @@ const p = [
   },
 ];
 
-const change = p.map((item) => {
+// const change = p.map((item) => {
+//   if (item.isActive == false) {
+//     item.isActive = "NA";
+//     return item;
+//   }
+//   return item;
+// });
+
+// console.log({ p, change });
+
+const change2 = p.map((item) => {
   if (item.isActive == false) {
-    item.isActive = "NA";
+    item.isActive = "Not Available";
+    return item;
+  } else if (item.isActive == true) {
+    item.isActive = "Available";
     return item;
   }
-  return item;
 });
 
-console.log({ p, change });
+// console.log({ p, change2 });
+console.log({ change2 });
