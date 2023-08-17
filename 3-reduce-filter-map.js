@@ -42,7 +42,18 @@ const output = [
   },
 ];
 
-const filtery = data.filter(
-  (item) => item.color === "red" || item.color === "blue"
-);
+// const filtery = data.filter(
+//   (item) => item.color === "red" || item.color === "blue"
+// );
+// console.log(filtery);
+// Hard code
+
+// let arri = colors.map((item) => item);
+// // console.log(arri);
+// const filtery = data.filter(
+//   (item2) => item2.color == item || item2.color == item
+// );
+// console.log(filtery);
+
+let filtery = data.filter((item) => colors.includes(item.color));
 console.log(filtery);
