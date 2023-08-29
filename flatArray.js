@@ -3,7 +3,7 @@ var flatarray = function (matrix) {
   empty = [];
   //   empty2 = [];
   m = matrix.length;
-  var n = matrix[1].length;
+  var n = matrix[0].length;
   console.log(m);
   // n = matrix[i].length;
   //   for (let x = 0; x < m; x++) {
