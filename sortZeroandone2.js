@@ -7,11 +7,12 @@ function sorted(a) {
         a[j] = a[i] - a[j];
         a[i] = a[i] - a[j];
       }
+//This is the way of swapping using 2 varibales only.
       //   if (a[i] === 1) {
       //     let lastVar = a[i];
       //     a[i] = a[j];
       //     a[j] = lastVar;
-      //   }
+      //   } //This is the way of swapping using 2 varibales only.
     }
   }
   //   return a;
