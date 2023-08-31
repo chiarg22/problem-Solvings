@@ -37,3 +37,4 @@ var flatarray2 = function (matrix) {
 console.log(flatarray2([1, 2, 3, 4, [1, 2], [3, 4, [3, 4]], 5]));
 
 // Not working!!!
+//Note-This is the approach using 2D arrays and it is very lengthy one and is not working but working only in single 2d array and not in nested Flat array.
