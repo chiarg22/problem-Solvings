@@ -46,6 +46,8 @@ rotate([
   [1, 2, 3],
   [4, 5, 6],
   [7, 8, 9],
-]);
+]); // Write this for trying it on leetcode.
+
+rotate(matrix);//// Write this for trying it on VScode.
 
 console.log(matrix);
