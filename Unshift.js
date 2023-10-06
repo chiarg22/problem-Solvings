@@ -26,3 +26,5 @@ function unshifty(arr, x) {
 }
 
 console.log(unshifty(arr, 5));
+
+//This is the code for unshift
